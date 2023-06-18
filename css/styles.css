@@ -969,8 +969,7 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input:focus,
-.modal-input:hover {
+.modal-input:focus {
   border-color: #4d5ae5;
 }
 
@@ -984,7 +983,7 @@ top: 50%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.modal-input:focus-within + .input-icon  {
+.modal-input:focus + .input-icon  {
 	fill: #4d5ae5;
 }
 
@@ -1007,6 +1006,7 @@ top: 50%;
 	outline: transparent;
 	border: 1px solid rgba(46, 47, 66, 0.4);  
 	resize: none;
+  color: rgba(46, 47, 66, 0.4);
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1027,7 +1027,7 @@ top: 50%;
 .input-check:checked + .privacy-label .checkbox-box-svg {
   background-color: #404bbf;
 	border: none;
-	fill: #ffffff;
+	fill: #F4F4FD; 
 }
 
 .privacy-label {
