@@ -979,7 +979,7 @@ img {
 .modal-input:focus+.input-icon {
   fill: #4d5ae5;
 }
-
+/*! comment */
 .modal-comment {
   display: flex;
   flex-direction: column;
@@ -1006,7 +1006,7 @@ img {
 .modal-textarea:focus {
   border-color: #4d5ae5;
 }
-
+/*! checkbox  */
 .modal-textarea::placeholder {
   font-size: 12px;
   line-height: 1.17;
@@ -1014,50 +1014,45 @@ img {
   color: rgba(46, 47, 66, 0.4);
 }
 
-.modal-checkbox {
-  margin-bottom: 24px;
+.checkbox-box {
+	margin-bottom: 24px;
 }
-
-.input-checkbox:checked + .checkbox-label > .checkbox-span {
-
-  background-color: var(--color-ocean);
-  border: none;
-  
-  fill: var(--color-cloud);
+.privacy-checkbox {
 }
-
-.checkbox-label {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  display: block;
-  align-items: center;
-  margin-top: 16px;
+.privacy-checkbox:checked + .privacy-label > .checkbox-box-svg {
+	background-color: #404bbf;
+	border: none;
+	fill: #ffffff;
 }
-
-.checkbox-span {
-  margin-right: 8px;
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  margin-right: 8px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-}
-
 .privacy-link {
-  color: #4d5ae5;
-  text-decoration: underline;
-  display: inline-block;
-  margin-left: 3px;
+	color: #4d5ae5;
+	text-decoration: underline;
+	display: inline-block;
+	margin-left: 3px;
 }
-
+.checkbox-box-svg {
+	margin-right: 8px;
+	width: 16px;
+	height: 16px;
+	border: 1px solid rgba(46, 47, 66, 0.4);
+	border-radius: 2px;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+		fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	fill: transparent;
+}
+.checkbox-svg {
+}
+.privacy-label {
+	font-size: 12px;
+	line-height: 1.17;
+	letter-spacing: 0.04em;
+	color: #8e8f99;
+	display: block;
+}
+/*? modal-button */
 .modal-button {
   position: absolute;
   display: block;
