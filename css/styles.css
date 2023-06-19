@@ -976,7 +976,7 @@ img {
   border-color: #4d5ae5;
 }
 
-.modal-input:focus + .input-icon {
+.modal-input:focus+.input-icon {
   fill: #4d5ae5;
 }
 
@@ -1018,11 +1018,11 @@ img {
   margin-bottom: 24px;
 }
 
-.input-checkbox:checked + .checkbox-label > .checkbox-span {
+.input-checkbox:checked+.checkbox-label span {
   background-color: var(--color-ocean);
   border: none;
   fill: var(--color-cloud);
-  }
+}
 
 .checkbox-label {
   font-size: 12px;
