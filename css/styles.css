@@ -1018,6 +1018,12 @@ img {
   margin-bottom: 24px;
 }
 
+.input-checkbox:checked + .checkbox-label > .checkbox-span {
+  background-color: var(--color-ocean);
+  border: none;
+  fill: var(--color-cloud);
+  }
+
 .checkbox-label {
   font-size: 12px;
   line-height: 1.17;
@@ -1041,13 +1047,6 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
-}
-
-.input-checkbox:checked + .checkbox-label > .checkbox-span {
-  background-color: var(--color-ocean);
-  border: none;
-  fill: var(--color-cloud);
-  
 }
 
 .privacy-link {
