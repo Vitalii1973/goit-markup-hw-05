@@ -1019,8 +1019,10 @@ img {
 }
 
 .input-checkbox:checked + .checkbox-label > .checkbox-span {
+
   background-color: var(--color-ocean);
   border: none;
+  
   fill: var(--color-cloud);
 }
 
