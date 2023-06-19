@@ -1044,9 +1044,10 @@ img {
 }
 
 .input-checkbox:checked + .checkbox-label > .checkbox-span {
+  background-color: var(--color-ocean);
   border: none;
-  fill: #f4f4fd;
-  background-color: #404bbf;
+  fill: var(--color-cloud);
+  
 }
 
 .privacy-link {
