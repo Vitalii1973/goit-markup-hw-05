@@ -933,8 +933,6 @@ img {
 
 /*! Форми модалки */
 
-.modal-form {}
-
 .modal-field {
   margin-bottom: 8px;
 }
@@ -978,7 +976,7 @@ img {
   border-color: #4d5ae5;
 }
 
-.modal-input:focus+.input-icon {
+.modal-input:focus + .input-icon {
   fill: #4d5ae5;
 }
 
@@ -1020,11 +1018,7 @@ img {
   margin-bottom: 24px;
 }
 
-.input-check {}
-
-
-
-.privacy-label {
+.checkbox-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -1034,7 +1028,7 @@ img {
   margin-top: 16px;
 }
 
-.checkbox-box-svg {
+.checkbox-span {
   margin-right: 8px;
   width: 16px;
   height: 16px;
@@ -1049,13 +1043,11 @@ img {
   fill: transparent;
 }
 
-.input-check:checked + .privacy-label > .checkbox-box-svg {
-  background-color: #404bbf;
+.input-checkbox:checked + .checkbox-label > .checkbox-span {
   border: none;
   fill: #f4f4fd;
+  background-color: #404bbf;
 }
-
-.checkbox-svg {}
 
 .privacy-link {
   color: #4d5ae5;
@@ -1063,7 +1055,6 @@ img {
   display: inline-block;
   margin-left: 3px;
 }
-
 
 .modal-button {
   position: absolute;
