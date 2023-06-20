@@ -1022,7 +1022,7 @@ img {
 .privacy-checkbox:checked + .privacy-label > .checkbox-box-svg {
 	background-color: #404bbf;
 	border: none;
-	fill: #ffffff;
+	fill: #f4f4fd;
 }
 .privacy-link {
 	color: #4d5ae5;
